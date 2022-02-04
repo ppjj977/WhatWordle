@@ -264,7 +264,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         showResult();
                         updateWordIndex();
                         updateTotalGames();
-                        
+                        resetGameState();
                         
                         
                     }
