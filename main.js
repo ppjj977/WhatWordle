@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (guessedWord === currentWord) {
                 setTimeout(() => {
-                    const okSelected = window.confirm("Well done!");
+                    const okSelected = window.confirm("Well done clever clogs!");
                     if (okSelected) {
                         clearBoard();
                         showResult();
@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (guessedWords.length === 6 && guessedWord !== currentWord) {
                 setTimeout(() => {
                     const okSelected = window.confirm(
-                        `Sorry, you have no more guesses! The word is "${currentWord.toUpperCase()}".`
+                        `What a moron! The word is "${currentWord.toUpperCase()}".`
                     );
                     if (okSelected) {
                         clearBoard();
